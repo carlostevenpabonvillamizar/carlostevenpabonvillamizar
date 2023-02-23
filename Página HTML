@@ -1,0 +1,217 @@
+### Hi there 👋
+
+<!--
+**carlostevenpabonvillamizar/carlostevenpabonvillamizar** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+
+Here are some ideas to get you started:
+ <Html>
+<Head> 
+<Title> mi pagina web </title>
+</head>
+<body>
+<h1> hola!!!</h1>
+<h2> hola!!!</h2>
+<h3> hola!!!</h3>
+<p>hola mundo</p>
+<a href="#">ir ala pagina</a>
+</body>
+</html>
+<Html>
+<Head> 
+<Title> mi pagina web </title> 
+    <script>
+        function saludar(){
+            alert ('hola');
+        }
+    </script>
+</head>
+<body>
+    
+<h1 onclick="saludar()">hola!!!</h1>
+<h2> hola!!!</h2>
+<h3> hola!!!</h3>
+<p>hola mundo</p>
+<p id="parrafo1" style="background-color:blue ;color:white" align="center">liena detexto</p><p>hola</p>
+<a href="https://www.youtube.com/watch?v=WDlF2Hh6ccQ">ir ala pagina</a>
+<p>vamos todos al <a href="https://www.youtube.com/watch?v=Qp9_a8E2CyQ"> evento </a> de inicio de semestre </p>
+<br>
+<h2>lineas texto</h2>
+<input type="text" tabindex="1"/><input type="text" tabindex="3"  />
+<input type="text" tabindex="1"/><input type="text" tabindex="3"  />
+<input type="text" tabindex="1"/><input type="text" tabindex="3"  />
+<input type="text" tabindex="1"/><input type="text" tabindex="3"  />
+<input type="text" tabindex="1"/><input type="text" tabindex="3"  />
+
+<br>
+secuencia de entrada :
+<ol>
+    <li>abrir puerta</li>
+    <li>encender luz</li>
+    <li>ubicar pc</li>
+</ol>
+lenguajes de programacion relevantes 
+<ul type="square">
+    <li>java</li>
+    <li>payton</li>
+    <li>php</li>
+</ul>
+<br>
+glosario
+<dl>
+    <dt>uts</dt>
+    <dd> unidades tecnologicas de santander</dd>
+    <dt>uis</dt>
+    <dd> universidad industrial de santander</dd>
+    <dt>sena</dt>
+    <dd>servicio nacional de aprendizaje  </dd>
+    
+</dl>
+<p><h1>link</h1></p>
+<a href="miformulario,html" target="_blank">registrar usuario</a>
+
+</body> 
+</html>
+ <!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+  
+    <div class="signupFrm">
+        <form action="" class="form">
+          <h1 class="title">registrate</h1>
+    
+          <div class="inputContainer">
+            <label for="" class="label">documento</label>
+            <input type="text" class="input" placeholder="a">
+            
+          </div>
+          <td>Genero</td>
+                <td>
+                    <label for="male">hombre</label><input type="radio" name="gender" id="male">
+                    <label for="female">mujer</label><input type="radio" name="gender" id="female">
+                </td>
+    
+          <div class="inputContainer">
+            <label for="" class="label">nombre y apellido</label>
+            <input type="text" class="input" placeholder="a">
+            
+          </div>
+    
+          <div class="inputContainer">
+            <label for="" class="label">Password</label>
+            <input type="text" class="input" placeholder="a">
+            
+          </div>
+    
+          <div class="inputContainer">
+            <label for="" class="label">Confirm Password</label>
+            <input type="text" class="input" placeholder="a">
+            
+          </div>
+          <td>fecha de nacimiento</td>
+                <td>
+                    <select name="" id="">
+                        <option value="null">Day:</option>
+                        <option value="1">1</option>
+                        <option value="2">2</option>
+                        <option value="3">3</option>
+                        <option value="4">4</option>
+                        <option value="5">5</option>
+                        <option value="6">6</option>
+                        <option value="7">7</option>
+                        <option value="8">8</option>
+                        <option value="9">9</option>
+                        <option value="10">10</option>
+                        <option value="11">11</option>
+                        <option value="12">12</option>
+                        <option value="13">13</option>
+                        <option value="14">14</option>
+                        <option value="15">15</option>
+                        <option value="16">16</option>
+                        <option value="17">17</option>
+                        <option value="18">18</option>
+                        <option value="19">19</option>
+                        <option value="20">20</option>
+                        <option value="21">21</option>
+                        <option value="22">22</option>
+                        <option value="23">23</option>
+                        <option value="24">24</option>
+                        <option value="25">25</option>
+                        <option value="26">26</option>
+                        <option value="27">27</option>
+                        <option value="28">28</option>
+                        <option value="29">29</option>
+                        <option value="30">30</option>
+                        <option value="31">31</option>
+                    </select>
+                    <select name="Month" id="">
+                        <option value="null">Month:</option>
+                        <option value="Jan">Jan</option>
+                        <option value="Feb">Feb</option>
+                        <option value="Mar">Mar</option>
+                        <option value="Apr">Apr</option>
+                        <option value="May">May</option>
+                        <option value="Jun">Jun</option>
+                        <option value="Jul">Jul</option>
+                        <option value="Aug">Aug</option>
+                        <option value="Sept">Sept</option>
+                        <option value="Oct">Oct</option>
+                        <option value="Nov">Nov</option>
+                        <option value="Dec">Dec</option>
+                    </select>
+                    <select name="" id="">
+                        <option value="null">Year:</option>
+                        <option value="2020">2020</option>
+                        <option value="2019">2019</option>
+                        <option value="2018">2018</option>
+                        <option value="2017">2017</option>
+                        <option value="2016">2016</option>
+                        <option value="2015">2015</option>
+                        <option value="2014">2014</option>
+                        <option value="2013">2013</option>
+                        <option value="2012">2012</option>
+                    </select>
+                </td>
+            </tr>
+
+            <br>
+          <div><label for="" class="label">hobbies</label>
+          <select name="cuidad" id="">
+            <option value="bucaramanga">leer:</option>
+            <option value="bogota">cagar</option>
+            <option value="cali">bailar</option>
+            <option value="medellin">cantar</option>
+            <option value="giron">montar moto</option>
+            <option value="manizales">fulbolista</option>
+            <option value="santa marta">deporte</option>
+          </div>
+        </select>
+
+          <br>
+          <div><label for="" class="label">Celecione la ciudad donde vides</label>
+          <select name="cuidad" id="">
+            <option value="bucaramanga">bucaramanga:</option>
+            <option value="bogota">bogota</option>
+            <option value="cali">cali</option>
+            <option value="medellin">Medellin</option>
+            <option value="giron">giron</option>
+            <option value="manizales">Manizales</option>
+            <option value="santa marta">santa marta</option>
+          </div>
+        </select>
+    
+
+
+         <div>
+
+          <input type="submit" class="submitBtn" value="Sign up">
+        </form>
+      </div>
+      
+</body>
+</html>
